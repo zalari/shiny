@@ -1,7 +1,7 @@
 Docker for Shiny Server
 =======================
 
-This is a Dockerfile for Shiny Server on Debian "testing". It is based on the r-base image.
+This is a Dockerfile for Shiny Server on Debian "testing". It uses R Version 3.5.0 with R-Studio Shiny Server Version 1.5.7.890
 
 The image is available from [Docker Hub](https://registry.hub.docker.com/u/rocker/shiny/).
 
@@ -41,3 +41,7 @@ docker run -d -p 80:3838 \
 ## Trademarks
 
 Shiny and Shiny Server are registered trademarks of RStudio, Inc. The use of the trademarked terms Shiny and Shiny Server and the distribution of the Shiny Server through the images hosted on hub.docker.com has been granted by explicit permission of RStudio. Please review RStudio's trademark use policy and address inquiries about further distribution or other questions to permissions@rstudio.com.
+
+##Tags
+
+* 1.1.0
